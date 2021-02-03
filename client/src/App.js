@@ -9,6 +9,7 @@ import './App.scss';
 import {AuthContextProvider, AuthProtectedRoute} from './AuthContext';
 import Header from './Header';
 import Home from './Home';
+import Components from './Components'
 import Login from './Login';
 import Passwords from './Passwords';
 import Register from './Register';
@@ -22,6 +23,9 @@ function App() {
         <Switch>
           <Route exact path="/">
             <Home />
+          </Route>
+          <Route path="/components">
+            <Components />
           </Route>
           <Route path="/login">
             <Login />
