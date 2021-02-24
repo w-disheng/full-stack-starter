@@ -1,12 +1,17 @@
-import './AboutMe.scss';
-import me from './me.jpg';
+import "./AboutMe.scss";
+import Gf from "./asset/gf.jpg";
 
 function AboutMe() {
   return (
     <div id="about-me">
-      <img className="img-fluid mb-3" src={me} alt="My Name" />
+      <img className="img-fluid mb-3" src={Gf} alt="My Name" />
       <h1>Disheng Wang</h1>
-      <p>Something about me. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p>
+        Hi, My name is Sean Wang, I am a recent graduate student from UCM in
+        Computer Science and Engineering. I was self tought to be a front end
+        developer, I am looking to a fulltime position of front-end developer or
+        fullstack engineer.
+      </p>
     </div>
   );
 }
